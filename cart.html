@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/vendors/all.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/vendors/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/images/NCS - Logo.png" alt="" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" href="./kiosk.html">KIOSK</a>
+                        <a class="nav-link" href="./canteenMenu.html">CANTEEN MENU</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                TRANSACTIONS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./transectionsummary.html">Transection Summary</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./transectionHistory.html">Transection History</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="./password.html">PASSWORD</a>
+                        <a class="nav-link" href="./contactus.html">CONTACT US</a>
+                        <a class="nav-link " href="./cart.html" tabindex="-1"><button class="cartBtn"><i
+                                    class="fas fa-shopping-basket"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="headerText"> Your  Shopping <span class="primaryText">Cart </span> </h1>
+
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<div class="container">
+    <div class="row section">
+        <div class="col-lg-12">
+            <div class="card">
+                <table class="table table-striped">
+                    <tr>
+                        <th></th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                       
+                    
+                    </tr>
+                    <tr>
+                        <td><button class="crossBtn"><i class="fas fa-times"></i></button></td>
+                        <td><div class="productinfo">
+                            <img src="./assets/images/meal1.jpg" alt="" class="mealImg"> <h6>Hot Meal</h6>
+                        </div></td>
+                        <td>AED 100</td>
+                        <td><input type="number" class="quantity"></td>
+                        <td>AED 100</td>
+                    </tr>
+                    </table>
+                <div class="cartButtons">
+                    <div class="buttons">
+                        <input type="text">
+                        <button class="couponBtn">Coupon Apply</button>
+                    </div>
+                    <button class="updateBtn">Update Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6"></div>
+        <div class="col-lg-6">
+            <div class="card cartInfo">
+                <h5 class="cartheading">CART TOTAL</h5>
+                <div class="row">
+                    <div class="col-lg-6"><h6>Subtitle</h6></div>
+                    <div class="col-lg-6"><h6>AED 100</h6></div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-6"><h6>Total</h6></div>
+                    <div class="col-lg-6"><h6 class="secondaryText">AED 100</h6></div>
+                </div>
+            </div>
+
+            <button class="classicBtn">Proceed To Checkout</button>
+        </div>
+    </div>
+</div>
+
+
+        <script src="./assets/vendors/all.js"></script>
+        <script src="./assets/vendors/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

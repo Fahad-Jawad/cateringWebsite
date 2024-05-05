@@ -1,0 +1,91 @@
+.outerShell{
+    width: 35%;
+    margin: auto;
+    background-image: url("../images/sideimg.jpg");
+    background-size: cover;
+    padding-top: 15%;
+    margin-top: 5%;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+
+    box-shadow: 3px 3px 10px rgba(177, 177, 177, 0.681);
+    background-position: top;
+   
+}
+
+.form{
+    background-color: white;
+    border-top-left-radius:4.5rem ;
+    border-top-right-radius:4.5rem ;
+    border-bottom-left-radius:0.5rem ;
+    border-bottom-right-radius:0.5rem ;
+    padding: 5%;
+    padding-bottom: 10%;
+}
+
+.form span{
+    color: #5f62ab;
+}
+
+.form h3{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.form .form-grp{
+    margin: 5% 0;
+}
+.form .form-control{
+    padding: 2%;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.form-grp label{
+color: #5f62ab;
+font-weight: 600;
+margin-bottom: 4%;
+}
+
+.form a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 10%;
+}
+
+.form .button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form .signInBtn{
+    margin: auto;
+    padding: 2% 10%;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    background-color: #5f62ab;
+    color: white;
+    border-color: transparent;
+}
+
+.form .signInBtn:hover{
+    background-color: transparent;
+    border-color: #5f62ab;
+    color: #5f62ab;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}

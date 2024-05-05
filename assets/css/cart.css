@@ -1,0 +1,97 @@
+.headerText{
+    margin-top: 20% !important;
+}
+
+.crossBtn{
+    background-color: transparent;
+    color: red;
+    border: none;
+    margin-left: 20%;
+   
+}
+
+.productinfo{
+    display: flex;
+    width: auto;
+   
+}
+
+.productinfo h6{
+   margin: auto 0;
+}
+
+
+.table td{
+    vertical-align: middle;
+    
+}
+.table{
+    margin-bottom: 0 !important;
+}
+
+.quantity{
+    width: 10%;
+    text-align: center;
+}
+.mealImg{
+    width: 80px;
+    height: 50px;
+    margin-right: 3%;
+}
+
+.cartButtons{
+    display: flex;
+    justify-content: space-between;
+    background-color: 
+    #f2f2f2 ;
+    padding: 1%;
+}
+.buttons{
+    width: 50%;
+}
+
+.couponBtn{
+    background-color: #5f62ab;
+    color: white;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    padding: 0.3% 2%;
+    border-color: transparent;
+}
+.updateBtn{
+    background-color: #01854c;
+    color: white;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    padding: 0.3% 2%;
+    border-color: transparent;
+}
+.buttons button{
+    margin: 0 1% ;
+}
+
+.cartheading{
+    width: 100%;
+    background-color: #f2f2f2 ;
+    padding: 2%;
+}
+
+.cartInfo{
+    margin-bottom: 3%;
+}
+
+.cartInfo h6{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.classicBtn{
+    width: 100%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/vendors/all.css">
+    <link rel="stylesheet" href="./assets/css/kiosk.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/vendors/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-fluid header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/images/NCS - Logo.png" alt="" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" href="./kiosk.html">KIOSK</a>
+                        <a class="nav-link" href="./canteenMenu.html">CANTEEN MENU</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                TRANSACTIONS
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./transectionsummary.html">Transection Summary</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./transectionHistory.html">Transection History</a></li>
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="./password.html">PASSWORD</a>
+                        <a class="nav-link" href="./contactus.html">CONTACT US</a>
+                        <a class="nav-link " href="./cart.html" tabindex="-1"><button class="cartBtn"><i
+                                    class="fas fa-shopping-basket"></i></button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="headerText"> Our <span class="primaryText">Canteen</span> Menu</h1>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid foodMenu">
+        <div class="container">
+            <div class="row section">
+                <div class="row">
+                   
+                    <div class="col-lg-6 ">
+                        <div class="selections" style="margin-bottom:6% ;">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Semaine</option>
+                                <option value="1">SEMAINE #1</option>
+                                <option value="2">SEMAINE #2</option>
+                                <option value="3">SEMAINE #3</option>
+                                <option value="4">SEMAINE #4</option>
+                                <option value="5">SEMAINE #5</option>
+                            </select>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Day</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="categoriesSection">
+                        <h5 class="secondaryText">Categories</h5>
+                        <div class="categories">
+                            <div class="category">
+                                SOUPE
+                            </div>
+                            <div class="category">
+                                ENTRÉE
+                            </div>
+                            <div class="category">
+                                PLAT PRINCIPAL
+                            </div>
+                            <div class="category">
+                                PLAT VEGETERIEN
+                            </div>
+                            <div class="category">
+                                ACCOMPAGNEMENT
+                            </div>
+                            <div class="category">
+                                LAITAGE
+                            </div>
+                            <div class="category">
+                                DESSERT
+                            </div>
+                            <div class="category">
+                                PAIN
+                            </div>
+                            <div class="category">
+                                BOISSON
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row items">
+                        <div class="col-lg-4">
+
+                            <div class="card">
+                                <img src="./assets/images/meal1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maze-Men</h5>
+                                    <p class="card-text">$13.14</p>
+                                    <button class="itemBtn">Add to cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+
+                            <div class="card">
+                                <img src="./assets/images/meal1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maze-Men</h5>
+                                    <p class="card-text">$13.14</p>
+                                    <button class="itemBtn">Add to cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+
+                            <div class="card">
+                                <img src="./assets/images/meal1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maze-Men</h5>
+                                    <p class="card-text">$13.14</p>
+                                    <button class="itemBtn">Add to cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+
+                            <div class="card">
+                                <img src="./assets/images/meal1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maze-Men</h5>
+                                    <p class="card-text">$13.14</p>
+                                    <button class="itemBtn">Add to cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+
+                            <div class="card">
+                                <img src="./assets/images/meal1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maze-Men</h5>
+                                    <p class="card-text">$13.14</p>
+                                    <button class="itemBtn">Add to cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+
+                            <div class="card">
+                                <img src="./assets/images/meal1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Maze-Men</h5>
+                                    <p class="card-text">$13.14</p>
+                                    <button class="itemBtn">Add to cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true"><i class="fas fa-arrow-left"></i></span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true"><i class="fas fa-arrow-right"></i></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="./assets/vendors/all.js"></script>
+    <script src="./assets/vendors/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
